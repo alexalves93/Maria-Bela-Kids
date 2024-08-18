@@ -1,0 +1,235 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+}
+
+/* Container */
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+/* Nav Bar */
+header {
+    background: #ff6699;
+    color: #fff;
+    padding: 20px 0;
+}
+
+header h1 {
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    float: left;
+}
+
+header nav {
+    float: right;
+    margin-top: 10px;
+}
+
+header nav ul {
+    list-style: none;
+}
+
+header nav ul li {
+    display: inline;
+    margin-left: 20px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Hero Section */
+.hero {
+    background: 
+        linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), 
+        url('https://images.unsplash.com/photo-1513597607252-a125b383749a?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D') 
+        no-repeat center center/cover;
+    height: 500px;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.hero h2 {
+    font-size: 3rem;
+}
+
+.hero p {
+    font-size: 1.5rem;
+    margin: 20px 0;
+}
+
+.cta-button {
+    background-color: #ff6699; 
+    border: none;
+    color: white;
+    padding: 15px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 15px;
+}
+
+/* Sobre Nós */
+#sobre {
+    background: #f4f4f4;
+    padding: 50px 0;
+    text-align: center;
+}
+
+#sobre h2 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+/* Produto */
+#produto {
+    background: #fff;
+    padding: 50px 0;
+    text-align: center;
+}
+
+#produto h2 {
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+}
+
+.produto {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.produto img {
+    width: 300px;
+    height: 300px;
+    object-fit: cover; 
+}
+
+.produto-descricao {
+    max-width: 400px;
+    margin-left: 20px;
+    text-align: left;
+}
+
+.produto-descricao h3 {
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+}
+
+/* Equipe */
+#equipe {
+    padding: 50px 0;
+    background: #f4f4f4;
+    text-align: center;
+}
+
+#equipe h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.equipe-membro {
+    display: inline-block;
+    margin: 20px;
+}
+
+.equipe-membro img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+}
+
+.equipe-membro h3 {
+    margin-top: 10px;
+    font-size: 1.5rem;
+}
+
+/* Formulário */
+#contato {
+    background: #ff6699;
+    color: #fff;
+    padding: 50px 0;
+    text-align: center;
+}
+
+#contato h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+form {
+    max-width: 400px;
+    margin: auto;
+}
+
+form label {
+    display: block;
+    margin: 10px 0 5px;
+    text-align: left;
+}
+
+form input[type="text"],
+form input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 5px;
+}
+
+form input[type="submit"] {
+    background: #fff;
+    color: #ff6699;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+/* Rodapé */
+footer {
+    background: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+footer p {
+    margin-bottom: 10px;
+}
+
+footer ul {
+    list-style: none;
+}
+
+footer ul li {
+    display: inline;
+    margin-left: 20px;
+}
+
+footer ul li a {
+    color: #fff;
+    text-decoration: none;
+}
